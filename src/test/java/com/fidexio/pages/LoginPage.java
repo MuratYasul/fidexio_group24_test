@@ -1,9 +1,9 @@
-package pages;
+package com.fidexio.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utils.Driver;
+import com.fidexio.utils.Driver;
 
 public class LoginPage {
 

@@ -1,11 +1,11 @@
-package step_definitions;
+package com.fidexio.step_definitions;
 
 
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import utils.Driver;
+import com.fidexio.utils.Driver;
 
 public class Hooks {
 
