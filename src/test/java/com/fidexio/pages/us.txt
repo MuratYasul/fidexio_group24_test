@@ -1,5 +1,3 @@
-user story
-
 As a POSMANAGER, I should be able to create a new Vehicle Cost.
 
 Acceptance
@@ -10,3 +8,75 @@ Acceptance
 5. After clicked the Save button, Edit button display instead of Save button and Create button display instead of Discard button.
 6. When user clicks the Edit button the form should open by displaying the all the information and it be ready to edit.
 7. User should be able to enter only number in the Total Price input box. And it should be displayed as a float number.
+
+
+
+  Background: User succesfully logged in the account
+    When User enters "posmanager82@info.com" and "posmanager" for Pos Manager
+    Then User clicks login button
+    And user clicks more button
+    And user clicks fleet button
+    Then user clicks Vehicle Contract button
+    And user clicks create button
+
+    @FIDEX10-514
+Scenario:Verify that USER can create a new Contract. (User enters only Vehicle, Type, Activation Cost, Recurring Cost Amount)
+User must choose at least a Vehicle to create a Vehicle Contract.
+  When user enters a vehicle "bmw"
+  And user chooses a vehicle type
+  And  User enters Activation Cost "1200"
+  And user enters Recurring Cost Amount "100"
+  Then user clicks the save button
+
+    @FIDEX10-516
+  Scenario: If user tries to enter a vehicle which is not on the Vehicle list and click the save button, Create a Vehicle popup should be displayed.
+    When  user  enter a vehicle that is not in the list "Honda"
+    And  user clicks the save button
+    Then user should see "Create a Vehicle" pop up.
+
+    @FIDEX10-517
+    Scenario:After clicked the save button, the information of the Contract Details which user entered should be displayed.
+      When user enters a vehicle "Tesla"
+      And user chooses a vehicle type
+      And  User enters Activation Cost "1200"
+      And user enters Recurring Cost Amount "100"
+      Then user clicks the save button
+      And  user can see "Contract details"
+
+
+      @FIDEX10-522
+      Scenario: After clicked the Save button, Edit button display instead of Save button and Create button display instead of Discard button.
+        When user enters a vehicle "mercedes"
+        And user chooses a vehicle type
+        And  User enters Activation Cost "1200"
+        And user enters Recurring Cost Amount "100"
+        Then user clicks the save button
+        And user can see edit and create buttons.
+
+    @FIDEX10-523
+       Scenario:When user clicks the Edit button the form should open by displaying the all the information and it be ready to edit.
+         When user enters a vehicle "bmw"
+         And user chooses a vehicle type
+         And  User enters Activation Cost "1200"
+         And user enters Recurring Cost Amount "100"
+         Then user clicks the save button
+         And user clicks edit button
+         Then user see information ready to be edited
+
+      @FIDEX10-524
+         Scenario: User should be able to enter only number in the Activation Cost input box.
+           When user enters a vehicle "opel"
+           And user chooses a vehicle type
+           And  User enters Activation Cost "1200ADS"
+           Then user clicks the save button
+           Then user see a warning message when entered alfanumeric value "The following fields are invalid:"
+
+        @FIDEX10-525
+           Scenario: Number entered Activation Cost input box should be displayed as a float number.
+             When user enters a vehicle "opel"
+             And user chooses a vehicle type
+             And  User enters Activation Cost "1200"
+             And user enters Recurring Cost Amount "100"
+             Then user clicks the save button
+             And user clicks edit button
+             And user see Activation Cost is a float number

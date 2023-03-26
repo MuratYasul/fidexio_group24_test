@@ -1,10 +1,10 @@
-package step_definitions;
+package com.fidexio.step_definitions;
 
-import pages.LoginPage;
+import com.fidexio.pages.LoginPage;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import utils.ConfigurationReader;
-import utils.Driver;
+import com.fidexio.utils.ConfigurationReader;
+import com.fidexio.utils.Driver;
 
 public class LoginStepDefinitions {
 
