@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class VehicleCostPage {
     public VehicleCostPage() {
-        PageFactory.initElements(Driver.getDriver(),this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(xpath = "(//a[@class='dropdown-toggle'])[1]")
@@ -45,22 +45,22 @@ public class VehicleCostPage {
     @FindBy(xpath = "//button[@class='btn btn-sm btn-primary']")
     public WebElement searchCreateBtn;
 
-   @FindBy(css = "button.btn.btn-primary.btn-sm.o_list_button_add")
+    @FindBy(css = "button.btn.btn-primary.btn-sm.o_list_button_add")
     public WebElement createNewBtn;
 
-   @FindBy(xpath = "//button[normalize-space()='Create']")
-   public WebElement createBtn;
+    @FindBy(xpath = "//button[normalize-space()='Create']")
+    public WebElement createBtn;
 
-    @FindBy (xpath = "//input[@id='o_field_input_51']")
+    @FindBy(xpath = "(//input[@class='o_input ui-autocomplete-input'])[1]")
     public WebElement vehicle_input_box;
 
-    @FindBy (xpath = "(//input[@class='o_input ui-autocomplete-input'])[2]")
-    public  WebElement vehicle_type;
+    @FindBy(xpath = "(//input[@class='o_input ui-autocomplete-input'])[2]")
+    public WebElement vehicle_type;
 
     @FindBy(xpath = "//button[@class='btn btn-primary btn-sm o_form_button_save']")
     public WebElement save_button;
 
-    @FindBy(xpath = "/html/body/div[2]/div/div[1]/text()[2]")
+    @FindBy(css = ".o_notification.undefined.o_error")
     public WebElement invalidErrorMsg;
 
     @FindBy(xpath = "//button[@accesskey='a']")
@@ -75,14 +75,13 @@ public class VehicleCostPage {
     @FindBy(xpath = "//input[@class='o_field_float o_field_number o_field_widget o_input']")
     public WebElement total_price;
 
-   @FindBy (id = "o_field_input_46")
+    @FindBy(id = "o_field_input_46")
     public WebElement cost_description_input;
 
     @FindBy(xpath = "//div[@class='modal-footer']/button[1]")
     public WebElement create_button2;
 
-    @FindBy(xpath = "//div[@class='modal-footer']/button[2]")
+    @FindBy(css = ".btn.btn-primary.btn-sm.o_form_button_edit")
     public WebElement create_and_edit_button;
-
-
 }
+
