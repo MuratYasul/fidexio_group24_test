@@ -5,7 +5,6 @@ import com.fidexio.pages.LoginPage;
 import com.fidexio.pages.VehicleCostPage;
 import com.fidexio.utils.BrowserUtils;
 import com.fidexio.utils.Driver;
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -16,8 +15,6 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class VehicleCostCreating_StepDfns {
-
-    LoginPage loginPage = new LoginPage();
 
     HomePage homePage = new HomePage();
     VehicleCostPage vehicleCostPage = new VehicleCostPage();
@@ -137,26 +134,7 @@ public class VehicleCostCreating_StepDfns {
         }
         scanner.close();
     }
-//
-//    @Then("user see Total Price is a float number")
-//    public void user_see_total_price_is_a_float_number() {
-//        String totalPrice= vehicleCostPage.total_price.getText();
-//        System.out.println("total_price = " + totalPrice);
-//        Scanner scanner = new Scanner(totalPrice);
-//
-//
-//        scanner.useLocale(Locale.US);
-//
-//        while (scanner.hasNext()) {
-//
-//            if (scanner.hasNextFloat()) {
-//                System.out.println("Found Float: " + scanner.nextFloat());
-//            }
-//
-//            System.out.println("Not Found Float: " + scanner.next());
-//        }
-//        scanner.close();
-//    }
+
 
 
 }
