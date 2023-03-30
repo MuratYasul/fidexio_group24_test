@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8dcc44d-8a05-417a-a373-cf9918159793" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/VehicleCostCreating_StepDfns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/VehicleCostCreating_StepDfns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/utils/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/create_new_vehicle_cost.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/create_new_vehicle_cost.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +31,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="recentNewPullRequestHead">
       <RepoCoordinatesHolder>
@@ -51,10 +54,10 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="2NJR8YoT9km4LyVVeMpw7sGYjey" />
@@ -69,7 +72,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/m_yas/IdeaProjects/fidexio_group24_test/src/test/resources/features",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/m_yas/IdeaProjects/fidexio_group24_test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,10 +92,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\m_yas\IdeaProjects\fidexio_group24_test" />
       <recent name="C:\Users\m_yas\IdeaProjects\fidexio_group24_test\src\test\resources\features" />
       <recent name="C:\Users\m_yas\IdeaProjects\fidexio_group24_test\src\test\java" />
       <recent name="C:\Users\m_yas\IdeaProjects\fidexio_group24_test\src\test" />
-      <recent name="C:\Users\m_yas\IdeaProjects\fidexio_group24_test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\m_yas\IdeaProjects\fidexio_group24_test\src\test\java\com\fidexio\step_definitions" />
@@ -130,26 +134,6 @@
       <option name="NAME_FILTER" value="^4\. After clicked the save button\, the information of the Cost Details which user entered should be displayed\.$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^4\. After clicked the save button\, the information of the Cost Details which user entered should be displayed\.$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: 4. After clicked the save button, the information of the Cost Details which user entered should be displayed." />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: If user tries to enter a vehicle which is not on the Vehicle list and click the save button, Create a Vehicle popup should be displayed." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/create_new_vehicle_cost.feature" />
-      <option name="GLUE" value="com.fidexio.step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="fidexio_group24_test" />
-      <option name="NAME_FILTER" value="^If user tries to enter a vehicle which is not on the Vehicle list and click the save button\, Create a Vehicle popup should be displayed\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^If user tries to enter a vehicle which is not on the Vehicle list and click the save button\, Create a Vehicle popup should be displayed\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: If user tries to enter a vehicle which is not on the Vehicle list and click the save button, Create a Vehicle popup should be displayed." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -221,6 +205,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verify that USER can create a new Cost." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/create_new_vehicle_cost.feature" />
+      <option name="GLUE" value="com.fidexio.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="fidexio_group24_test" />
+      <option name="NAME_FILTER" value="^Verify that USER can create a new Cost\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that USER can create a new Cost\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that USER can create a new Cost." />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: When user clicks the Edit button the form should open by displaying the all the information and it be ready to edit." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/create_new_vehicle_cost.feature" />
@@ -259,10 +263,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Verify that USER can create a new Cost." />
         <item itemvalue="Cucumber Java.Scenario: When user clicks the Edit button the form should open by displaying the all the information and it be ready to edit." />
         <item itemvalue="Cucumber Java.Scenario: User should be able to enter only number in the Total Price input box." />
         <item itemvalue="Cucumber Java.Scenario: Number entered Total Price input box should be displayed as a float number." />
-        <item itemvalue="Cucumber Java.Scenario: If user tries to enter a vehicle which is not on the Vehicle list and click the save button, Create a Vehicle popup should be displayed." />
       </list>
     </recent_temporary>
   </component>
@@ -286,6 +290,8 @@
       <workItem from="1679678796477" duration="7445000" />
       <workItem from="1679769989753" duration="6767000" />
       <workItem from="1679817689793" duration="41880000" />
+      <workItem from="1680209774590" duration="2724000" />
+      <workItem from="1680213373791" duration="2549000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1679433758200</created>
@@ -329,7 +335,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679917393103</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test">
+      <created>1680210072455</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680210072455</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test">
+      <created>1680210161786</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680210161786</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
