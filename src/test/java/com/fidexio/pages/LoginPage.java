@@ -20,4 +20,5 @@ public class LoginPage {
     @FindBy(css = "button.btn.btn-primary")
     public WebElement loginButton;
 
+
 }
